@@ -1,0 +1,36 @@
+{% extends 'flight/layout.html' %}
+
+{% load static %}
+
+{% block head %}
+    <title>Terms and Conditions | Flight</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/privacy-policy.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/about.css' %}">
+{% endblock head %}
+
+{% block body %}
+    <section class="privacybanner-section">
+        <img src="{% static 'img/about-us.png' %}" alt="Privacy Policy" class="privacybannerimg">
+    </section>
+    <section class="section section1">
+        <div class="container">
+            <h1>Welcome to Sky Schema!</h1>
+            <p>This is our Complex Engineering Project (CEP) of DBMS (Database Management Systems) made by a group of four dedicated members. Our project focuses on booking and managing flights all over the world.</p>
+            <p>Sky Schema aims to provide a comprehensive and user-friendly platform for travelers to book their flights with ease. We understand the complexities involved in the airline industry, and our project leverages the power of DBMS to simplify the flight booking process.</p>
+            <p>With Sky Schema, you can explore various destinations, check flight availability, compare fares, and make hassle-free bookings. Our platform integrates with multiple airlines, ensuring that you have access to a wide range of flight options to choose from.</p>
+            <p>Our project team, consisting of the following members, has put in countless hours of effort to design and develop a robust DBMS solution that ensures data accuracy, efficient search functionality, and secure transaction processing:</p>
+            
+            <ul>
+              <li><strong>Wahaj Raza</strong> - CS21055</li>
+              <li><strong>Syed Ateeb Naveed</strong> - CS21054</li>
+              <li><strong>Farrukh Niaz</strong> - CS21064</li>
+              <li><strong>Huzaifa Naseer Khan</strong> - CS21067</li>
+            </ul>
+            
+            <p>We have taken into account various factors such as seat availability, pricing, and real-time updates to provide you with a seamless booking experience.</p>
+            <p>Whether you're a frequent traveler or planning a dream vacation, Sky Schema is here to simplify your journey. So, sit back, relax, and let our DBMS-powered platform take care of all your flight booking needs.</p>
+            <p>Thank you for joining us on this exciting adventure with Sky Schema!</p>
+                       
+        </div>
+    </section>
+{% endblock%}
