@@ -15,9 +15,9 @@ def createWeekDays():
         Week.objects.create(number=i, name=day)
 
 def addPlaces():
-    file = open("./Data/airports.csv", "r")
+    file = open("Data/airports.csv", "r")
     print("Adding Airports...")
-    total = get_number_of_lines("./Data/airports.csv")
+    total = get_number_of_lines("Data/airports.csv")
     for i, line in tqdm(enumerate(file), total=total):
         if i == 0:
             continue
@@ -33,9 +33,9 @@ def addPlaces():
     print("Done.\n")
 
 def addDomesticFlights():
-    file = open("./Data/domestic_flights.csv", "r")
+    file = open("Data/domestic_flights.csv", "r")
     print("Adding Domestic Flights...")
-    total = get_number_of_lines("./Data/domestic_flights.csv")
+    total = get_number_of_lines("Data/domestic_flights.csv")
     for i, line in tqdm(enumerate(file), total=total):
         if i == 0:
             continue
@@ -63,9 +63,9 @@ def addDomesticFlights():
     print("Done.\n")
 
 def addInternationalFlights():
-    file = open("./Data/international_flights.csv", "r")
+    file = open("Data/international_flights.csv", "r")
     print("Adding International Flights...")
-    total = get_number_of_lines("./Data/international_flights.csv")
+    total = get_number_of_lines("Data/international_flights.csv")
     for i, line in tqdm(enumerate(file), total=total):
         if i == 0:
             continue

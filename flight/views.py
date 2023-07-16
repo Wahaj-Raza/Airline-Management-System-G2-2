@@ -21,10 +21,10 @@ try:
     if len(Place.objects.all()) == 0:
         addPlaces()
 
-    if len(Flight.objects.all()) == 0:
+    if len(Flight.objects.all()) <4000:
         print("Do you want to add flights in the Database? (y/n)")
         if input().lower() in ['y', 'yes']:
-            addDomesticFlights()
+            # addDomesticFlights()
             addInternationalFlights()
 except:
     pass
