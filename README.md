@@ -4,9 +4,9 @@
 ## Group ID G2-2
 ### Group Members
 - Wahaj Raza (CS-21055)
-- Huzaifa Naseer (CS-21067)
+- Huzaifa Naseer Khan (CS-21067)
 - Farrukh Niaz (CS-21064)
-- Ateeb Naveed (CS-21054)
+- Syed Ateeb Naveed (CS-21054)
 
 ![Alt text](plane.jpg)
 
