@@ -1,8 +1,11 @@
 ![Alt text](logo2.png)
 
 # Database Mangement System Project
-## Group ID G2-2
+
+## | Group ID G2-2 |
+
 ### Group Members
+
 - Wahaj Raza (CS-21055)
 - Huzaifa Naseer Khan (CS-21067)
 - Farrukh Niaz (CS-21064)
