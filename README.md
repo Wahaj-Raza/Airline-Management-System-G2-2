@@ -6,10 +6,10 @@
 
 ### Group Members
 
-- Wahaj Raza (CS-21055)
-- Huzaifa Naseer Khan (CS-21067)
-- Farrukh Niaz (CS-21064)
 - Syed Ateeb Naveed (CS-21054)
+- Wahaj Raza (CS-21055)
+- Farrukh Niaz (CS-21064)
+- Huzaifa Naseer Khan (CS-21067)
 
 ![Alt text](plane.jpg)
 
