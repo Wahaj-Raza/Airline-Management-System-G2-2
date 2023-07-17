@@ -1,4 +1,5 @@
 ![Alt text](logo2.png)
+# SKY SCHEMA
 
 # Database Mangement System Project
 
